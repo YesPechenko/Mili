@@ -5,13 +5,8 @@ public class Main {
         int ticket = 100;
         int sum = ticket / 20;
 
-        int limit = 20;
+        int total = mili * sum;
 
-        if (sum >= limit) {
-            mili = mili * sum;
-        } else {
-            mili = sum;
-        }
-        System.out.println(mili);
+        System.out.println(total);
     }
 }
